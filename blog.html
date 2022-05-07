@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>University of Wales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" width="220px" height="100%" alt=""></a>
+            <div class="nav-bar" id="navbar">
+                <i class="bi bi-list" onclick="hideMenu()" aria-hidden="true"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-x" onclick="showMenu()" aria-hidden="true"></i>
+        </nav>
+
+        <h1>Our Certificates & Online Programms 2022</h1>
+
+    </section>
+    <!--Blog Page Content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certi.jpg">
+                <h2>Our Certificates & Online Programms 2022</h2>
+                <p>University of Wales offers over 600 free online courses and enables you to get a taste of an Ivy League education for free. Here are just a few of their courses you might enjoy:<br><br>
+                    <b> Shakespeare’s Life and Work</b>: Learn how to read William Shakespeare’s plays, while also learning his biography over the course of four weeks. The course also covers Elizabethan and Jacobean history and modern performance.<br><br>
+                    <b>The Health Effects of Climate Change</b>: Climate change is more topical than ever. In this seven-week course, find out how global warming impacts human health and how we can help to diminish its effects.<br><br>
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave us a Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="btn yel-btn">Post Comment</button>
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Computer Science</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>University of Wales we are the top ranking private university in the world at the current moments. We are accepting all the students from world wide to the Wales, New York and Toronto branches. Our students can experience excellent library, cafeteria,
+            stadium an hostal facilities.</p>
+
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-whatsapp"></i>
+        </div>
+        <p>Made with <i class="bi bi-heart-fill"></i> by Ease Tutorials</p>
+    </section>
+
+
+    <!---JavaScript for Toggle Menu-->
+    <script>
+        var navbar = document.getElementById("navbar");
+
+        function showMenu() {
+            navbar.syle.right = "0";
+        }
+
+        function hideMenu() {
+            navbar.syle.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+
+</html>

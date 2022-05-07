@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>University of Wales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" width="220px" height="100%" alt=""></a>
+            <div class="nav-bar" id="navbar">
+                <i class="bi bi-list" onclick="hideMenu()" aria-hidden="true"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-x" onclick="showMenu()" aria-hidden="true"></i>
+        </nav>
+
+        <h1>Our Coursess</h1>
+
+    </section>
+
+    <!--Courses Content-->
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>These are the Courses we Offer in the University of Wales</p>
+
+        <div class="row">
+            <div class="courses-col">
+                <h3>Intermediate</h3>
+                <p>An academic diploma awarded by a high school or junior college after the completion of 12th grade or equivalent</p>
+            </div>
+            <div class="courses-col">
+                <h3>Degree</h3>
+                <p>Undergraduate education is education conducted after secondary education and before postgraduate education.</p>
+            </div>
+            <div class="courses-col">
+                <h3>Post Graduation</h3>
+                <p>Successfully completed an undergraduate degree level course at a college or university and is undertaking further study at a more advanced level.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Facilities-->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Primarily academic, Social, Dormitory. Residential, or Noncommercial in Nature.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="lib.jpg">
+                <h3>World Class Library</h3>
+                <p>A library that is attached to a higher education institution and serves two complementary purposes: to support the curriculum, and to support the research of the university faculty and students./p>
+            </div>
+            <div class="facilities-col">
+                <img src="stadium.jpg">
+                <h3>Largest Stadium</h3>
+                <p>A very large usually roofless building that has a large open area surrounded by many rows of seats and that is used for sports events, concerts, etc.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="cafe.jpg">
+                <h3>Tasty and Healthy Food Items</h3>
+                <p>A restaurant in which the customers serve themselves or are served at a counter and take the food to tables to eat</p>
+            </div>
+            <div class="facilities-col">
+                <img src="hostal.jpg">
+                <h3>Hostal Premises</h3>
+                <p>Low-cost, short-term shared sociable lodging where guests can rent a bed, usually a bunk bed in a dormitory, with shared use of a lounge and sometimes a kitchen. Rooms can be mixed or single-sex and have private or shared bathrooms.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>University of Wales we are the top ranking private university in the world at the current moments. We are accepting all the students from world wide to the Wales, New York and Toronto branches. Our students can experience excellent library, cafeteria,
+            stadium an hostal facilities.</p>
+
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-whatsapp"></i>
+        </div>
+        <p>Made with <i class="bi bi-heart-fill"></i> by Ease Tutorials</p>
+    </section>
+
+
+    <!---JavaScript for Toggle Menu-->
+    <script>
+        var navbar = document.getElementById("navbar");
+
+        function showMenu() {
+            navbar.syle.right = "0";
+        }
+
+        function hideMenu() {
+            navbar.syle.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+
+</html>
